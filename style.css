@@ -1,0 +1,71 @@
+.box1 {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: dashed red 5px;
+    
+}
+
+.box2 {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: dashed purple 5px;
+}
+
+.box3 {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: dashed blue 5px;
+}
+
+@media screen and (min-width: 600px) {
+    .box1 {
+        border: solid red 5px;
+    }
+
+    .box2 {
+        border: solid purple 5px;
+    }
+    .box3 {
+        border: solid blue 5px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .box1 {
+        border: dashed red 5px;
+    }
+
+    .box2 {
+        border: dashed purple 5px;
+    }
+    .box3 {
+        border: dashed blue 5px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .box1 {
+        border: dotted red 5px;
+    }
+
+    .box2 {
+        border: dotted purple 5px;
+    }
+    .box3 {
+        border: dotted blue 5px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .box1 {
+        border: dotted yellow 5px;
+    }
+
+    .box2 {
+        border: dotted green 5px;
+    }
+    .box3 {
+        border: dotted black 5px;
+    }
+}
