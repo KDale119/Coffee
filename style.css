@@ -1,1 +1,43 @@
- 
+ * {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .header {
+    z-index: 1;
+    border: dotted red 5px;
+    text-align: center;;
+    height: 150px;
+    
+ }
+ .navbar div {
+    display: flex;
+    z-index: 2;
+    border: dotted red 5px;
+    width: 1245px;
+    height: 75px;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+ }
+.page1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border: dotted red 5px;
+    padding-top: 55px;
+    margin-left: 110px;
+    margin-right:110px;
+}
+.usa {
+    width: 100%;
+    height: 120%;
+    
+}
+.types {
+    width: 100%;
+    height: 120%;
+}
+.brewing {
+    width: 100%;
+    height: 120%;
+}
+
