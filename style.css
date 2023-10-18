@@ -3,41 +3,49 @@
  }
  .header {
     z-index: 1;
-    border: dotted red 5px;
     text-align: center;;
     height: 150px;
+    font-size: 30px;
+    border: black solid 2px;
+    
     
  }
  .navbar div {
     display: flex;
     z-index: 2;
-    border: dotted red 5px;
     width: 1245px;
     height: 75px;
     justify-content: center;
     margin: auto;
     padding: 10px;
+    border: black solid 2px;
+    
  }
 .page1 {
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    border: dotted red 5px;
-    padding-top: 55px;
-    margin-left: 110px;
-    margin-right:110px;
+    padding-top: 75px;
 }
-.usa {
-    width: 100%;
-    height: 120%;
-    
+#origin {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
 }
-.types {
-    width: 100%;
-    height: 120%;
+.history {
+    height: 300px;
+    padding-left: 100px
 }
-.brewing {
-    width: 100%;
-    height: 120%;
+.origin {
+    padding-right: 100px;
+    padding-left: ;
+    display: flex;
 }
+.phistory {
+    padding-left: 20px;
+    font-size: 19px;
+}
+
 
