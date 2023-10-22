@@ -5,37 +5,40 @@
     text-align: center;
     height: 150px;
     font-size: 30px;
-    border: rgb(0, 0, 0) solid 2px;
+    border: rgb(0, 0, 0) solid 1px;
     background-image: url(./Images/coffee\ beans.jpg) ;
-    opacity: 0.6;
     
 }
 h1 {
     color: rgb(6, 8, 8);
+    background-color: rgb(156, 135, 107);
 }
 
  .navbar div {
     display: flex;
     width: 1245px;
     height: 75px;
+    align-items: center;
     justify-content: center;
     margin: auto;
-    padding: 10px;
-    border: black solid 2px;
+    border: black solid 1px;
+    background-color: rgb(192, 168, 136);
     
  }
-.page1 {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    padding-top: 75px;
-}
-#origin {
+
+ #origin {
     display: flex;
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 50px;
+    
+}
+.page1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 75px;
 }
 .history {
     height: 300px;
@@ -49,5 +52,47 @@ h1 {
     padding-left: 20px;
     font-size: 19px;
 }
+#types {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    
+}
+.page3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 19px;
+    
+}
+.page3 img {
+    padding-left: 50px;
+}
+.page3 article {
+    margin: 15px;
+}
+
+
+#brewing {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+.page4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.page4 img {
+    padding-left: 50px;
+}
+.method1, .method2, .method3 {
+    margin: 10px;
+    font-size: 19px;
+}
+
+
 
 
