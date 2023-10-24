@@ -100,8 +100,7 @@ h1 {
     
 }
 
- 
-@media screen and (min-width:600px){
+ @media screen and (max-width:600px){
     .header {
         width: 100vw;
     }
@@ -129,25 +128,6 @@ h1 {
         padding-left: 60px;
         font-size: 19px;
     }
-    
-}
- @media screen and (min-width:992px){
-    .header {
-        width: 100vw;
-    }
-    .navbar div {
-        display: grid;
-        grid-template-rows: 34px 35px 35px;
-        width: 100vw;
-    }
-    .page1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        justify-content: space-evenly;
-        padding-right: 75px;
-    }
-
-
  }
+
 
