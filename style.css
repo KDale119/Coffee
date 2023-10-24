@@ -23,6 +23,7 @@ h1 {
     margin: auto;
     border: black solid 1px;
     background-color: rgb(192, 168, 136);
+    font-size: 25px;
     
     
  }
@@ -100,7 +101,10 @@ h1 {
     
 }
 
- @media screen and (max-width:600px){
+/* new screen size                 */
+
+
+ @media screen and (max-width:1050px){
     .header {
         width: 100vw;
     }
@@ -111,6 +115,7 @@ h1 {
     }
     .page1 {
         display: inline-block;
+        flex-wrap: wrap;
     }
     .origin {
         display: inline-block;
@@ -129,5 +134,6 @@ h1 {
         font-size: 19px;
     }
  }
+ 
 
 
