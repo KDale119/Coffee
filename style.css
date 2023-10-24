@@ -134,6 +134,17 @@ h1 {
         font-size: 19px;
     }
  }
+
+ @media screen and (max-width:600px){
+    .header {
+        width: 100vw;
+    }
+    .navbar div {
+        display: grid;
+        grid-template-rows: 34px 35px 35px;
+        width: 100vw;
+    }
+ }
  
 
 
