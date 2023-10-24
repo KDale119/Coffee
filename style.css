@@ -94,9 +94,6 @@ h1 {
     font-size: 19px;
 }
 
-.learn {
-    
-}
 .footer {
     background-color: rgb(192, 168, 136);
     width: 100vw;
@@ -104,7 +101,7 @@ h1 {
 }
 
  
-@media screen and (max-width:600px){
+@media screen and (min-width:600px){
     .header {
         width: 100vw;
     }
@@ -134,4 +131,23 @@ h1 {
     }
     
 }
+ @media screen and (min-width:992px){
+    .header {
+        width: 100vw;
+    }
+    .navbar div {
+        display: grid;
+        grid-template-rows: 34px 35px 35px;
+        width: 100vw;
+    }
+    .page1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-right: 75px;
+    }
+
+
+ }
 
