@@ -14,6 +14,8 @@ h1 {
     background-color: rgb(156, 135, 107);
 }
 
+/* ORIGIN    TYPES   BREWING METHODS                 */
+
  .navbar div {
     display: flex;
     width: 1245px;
@@ -24,10 +26,16 @@ h1 {
     border: black solid 1px;
     background-color: rgb(192, 168, 136);
     font-size: 25px;
-    
-    
+ }
+ .navbar div:hover  {
+    cursor: pointer;
+    background-color: rgb(211, 192, 168);
  }
 
+
+ /* END*****************                 */
+
+ /* ORIGIN                               */
  #origin {
     display: flex;
     justify-content: center;
@@ -36,6 +44,10 @@ h1 {
     font-size: 50px;
     
 }
+
+
+
+
 .page1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -55,6 +67,8 @@ h1 {
     padding-left: 20px;
     font-size: 19px;
 }
+
+/* TYPES                               */
 #types {
     display: flex;
     justify-content: center;
@@ -75,7 +89,7 @@ h1 {
     margin: 15px;
 }
 
-
+/* BREWING                               */
 #brewing {
     display: flex;
     justify-content: center;
@@ -95,10 +109,13 @@ h1 {
     font-size: 19px;
 }
 
+/* FOOTER                               */
 .footer {
     background-color: rgb(192, 168, 136);
-    width: 100vw;
-    
+    width: 100vw;  
+}
+.btn:active {
+    background-color: antiquewhite;
 }
 
 /* new screen size                 */
